@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- PRIMARY BRAND COLORS -->
+
+    <color name="primary">#4F46E5</color>
+
+    <color name="primaryDark">#4338CA</color>
+
+    <color name="secondary">#06B6D4</color>
+
+    <!-- BACKGROUNDS -->
+
+    <color name="background">#F8FAFC</color>
+
+    <color name="cardBackground">#FFFFFF</color>
+
+    <!-- TEXT COLORS -->
+
+    <color name="textPrimary">#111827</color>
+
+    <color name="textSecondary">#6B7280</color>
+
+    <!-- STATUS COLORS -->
+
+    <color name="success">#10B981</color>
+
+    <color name="danger">#EF4444</color>
+
+    <color name="warning">#F59E0B</color>
+
+    <!-- BASIC -->
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+
+</resources>

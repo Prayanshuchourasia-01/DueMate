@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/background">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="24dp">
+
+        <!-- TITLE -->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Add New Bill"
+
+            android:textSize="30sp"
+
+            android:textStyle="bold"
+
+            android:textColor="@color/textPrimary"
+
+            android:layout_marginBottom="28dp"/>
+
+        <!-- BILL NAME -->
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="Bill Name"
+
+            app:boxBackgroundMode="filled"
+
+            app:boxBackgroundColor="@color/cardBackground"
+
+            app:boxCornerRadiusTopStart="18dp"
+
+            app:boxCornerRadiusTopEnd="18dp"
+
+            app:boxCornerRadiusBottomStart="18dp"
+
+            app:boxCornerRadiusBottomEnd="18dp"
+
+            app:hintTextColor="@color/primary">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/etName"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/textPrimary"
+
+                android:textColorHint="@color/textSecondary"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- AMOUNT -->
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+
+            android:hint="Amount"
+
+            app:boxBackgroundMode="filled"
+
+            app:boxBackgroundColor="@color/cardBackground"
+
+            app:boxCornerRadiusTopStart="18dp"
+
+            app:boxCornerRadiusTopEnd="18dp"
+
+            app:boxCornerRadiusBottomStart="18dp"
+
+            app:boxCornerRadiusBottomEnd="18dp"
+
+            app:hintTextColor="@color/primary">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/etAmount"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:inputType="numberDecimal"
+
+                android:textColor="@color/textPrimary"
+
+                android:textColorHint="@color/textSecondary"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- DATE BUTTON -->
+
+        <Button
+
+            android:id="@+id/btnDate"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="Select Due Date"
+
+            android:textAllCaps="false"
+
+            android:textStyle="bold"
+
+            android:textSize="16sp"
+
+            android:textColor="@color/white"
+
+            android:backgroundTint="@color/primary"
+
+            android:layout_marginTop="28dp"/>
+
+        <!-- DATE TEXT -->
+
+        <TextView
+
+            android:id="@+id/tvSelectedDate"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="No Date Selected"
+
+            android:textColor="@color/textSecondary"
+
+            android:textSize="15sp"
+
+            android:layout_marginTop="12dp"
+
+            android:layout_marginStart="4dp"/>
+
+        <!-- TIME BUTTON -->
+
+        <Button
+
+            android:id="@+id/btnTime"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="Select Reminder Time"
+
+            android:textAllCaps="false"
+
+            android:textStyle="bold"
+
+            android:textSize="16sp"
+
+            android:textColor="@color/white"
+
+            android:backgroundTint="@color/secondary"
+
+            android:layout_marginTop="24dp"/>
+
+        <!-- TIME TEXT -->
+
+        <TextView
+
+            android:id="@+id/tvSelectedTime"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="No Time Selected"
+
+            android:textColor="@color/textSecondary"
+
+            android:textSize="15sp"
+
+            android:layout_marginTop="12dp"
+
+            android:layout_marginStart="4dp"/>
+
+        <!-- SAVE BUTTON -->
+
+        <Button
+
+            android:id="@+id/btnSave"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="60dp"
+
+            android:text="Save Bill"
+
+            android:textAllCaps="false"
+
+            android:textStyle="bold"
+
+            android:textSize="18sp"
+
+            android:textColor="@color/white"
+
+            android:backgroundTint="@color/primary"
+
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

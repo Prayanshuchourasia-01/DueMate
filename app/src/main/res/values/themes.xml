@@ -1,0 +1,50 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.Billreminder" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.Billreminder" parent="Base.Theme.Billreminder" />-->
+<!--</resources>-->
+
+
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<style
+    name="Theme.Billreminder"
+    parent="Theme.Material3.DayNight.NoActionBar">
+
+    <!-- PRIMARY -->
+
+    <item name="colorPrimary">
+        @color/primary
+    </item>
+
+    <item name="colorPrimaryContainer">
+        @color/primaryDark
+    </item>
+
+    <!-- SECONDARY -->
+
+    <item name="colorSecondary">
+        @color/secondary
+    </item>
+
+    <!-- STATUS BAR -->
+
+    <item name="android:statusBarColor">
+        @color/primaryDark
+    </item>
+
+    <!-- BACKGROUND -->
+
+    <item name="android:windowBackground">
+        @color/background
+    </item>
+
+</style>
+
+</resources>
